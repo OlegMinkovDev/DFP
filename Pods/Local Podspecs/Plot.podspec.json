@@ -1,0 +1,33 @@
+{
+  "name": "Plot",
+  "version": "1.10.2",
+  "summary": "Plot v1.10.2",
+  "description": "A longer description of Plot in Markdown format.\n\n* Think: Why did you write this? What is the focus? What does it do?\n* CocoaPods will be using this to generate tags, and improve search results.\n* Try to keep it short, snappy and to the point.\n* Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "http://google.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Oleg Minkov": "oleg.minkov93@gmail.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/ssspppyyy/TestRepo.git",
+    "tag": "1.10.2",
+    "commit": "3862586b711a302571536a4a66fed297109e04da"
+  },
+  "source_files": "SDK/Plot.h",
+  "frameworks": [
+    "MessageUI",
+    "CoreLocation",
+    "UIKit",
+    "Foundation",
+    "CoreGraphics"
+  ],
+  "libraries": "sqlite3",
+  "vendored_libraries": "Library/libPlot-v1_10_2.a",
+  "requires_arc": true
+}

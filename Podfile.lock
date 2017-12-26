@@ -1,0 +1,27 @@
+PODS:
+  - Ads (1.3.4.4.3)
+  - Plot (1.10.2)
+
+DEPENDENCIES:
+  - Ads (from `https://github.com/ssspppyyy/DFP`)
+  - Plot (from `https://github.com/ssspppyyy/DFP`)
+
+EXTERNAL SOURCES:
+  Ads:
+    :git: https://github.com/ssspppyyy/DFP
+  Plot:
+    :git: https://github.com/ssspppyyy/DFP
+
+CHECKOUT OPTIONS:
+  Ads:
+    :commit: 173ab74d1cf92b75eb340a945780833fd27046cf
+    :git: https://github.com/ssspppyyy/DFP
+  Plot:
+    :commit: 173ab74d1cf92b75eb340a945780833fd27046cf
+    :git: https://github.com/ssspppyyy/DFP
+
+SPEC CHECKSUMS:
+  Ads: 562f9fe6829ea3618a5f11316ceff27a362ce5a2
+  Plot: 1e6178fcdd438328f39157e18784460c94c30b6b
+
+COCOAPODS: 0.39.0

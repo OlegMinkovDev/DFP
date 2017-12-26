@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Ads" "${PODS_ROOT}/Headers/Public/Plot"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Ads/Library" $(inherited) "${PODS_ROOT}/Ads/Library" $(inherited) "${PODS_ROOT}/Plot/Library"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Ads" -isystem "${PODS_ROOT}/Headers/Public/Plot"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Ads" -l"Plot-v1_10_2" -l"adclient" -l"sqlite3" -l"sqlite3.0" -l"xml2" -framework "AVFoundation" -framework "AddressBook" -framework "AddressBookUI" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "EventKit" -framework "Foundation" -framework "MapKit" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "iAd"
+PODS_ROOT = ${SRCROOT}/Pods

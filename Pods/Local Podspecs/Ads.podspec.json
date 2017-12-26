@@ -1,0 +1,51 @@
+{
+  "name": "Ads",
+  "version": "1.3.4.4.3",
+  "summary": "Ads v1.3.4.4.3",
+  "description": "A longer description of Ads in Markdown format.\n\n* Think: Why did you write this? What is the focus? What does it do?\n* CocoaPods will be using this to generate tags, and improve search results.\n* Try to keep it short, snappy and to the point.\n* Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "http://google.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Oleg Minkov": "oleg.minkov93@gmail.com"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/ssspppyyy/TestRepo.git",
+    "tag": "1.3.4.4.3"
+  },
+  "source_files": [
+    "SDK/Ads.h",
+    "SDK/AdsDelegate.h",
+    "Source/Ads.m"
+  ],
+  "frameworks": [
+    "AddressBookUI",
+    "AddressBook",
+    "SystemConfiguration",
+    "Security",
+    "MapKit",
+    "CFNetwork",
+    "MobileCoreServices",
+    "CoreTelephony",
+    "QuartzCore",
+    "AudioToolbox",
+    "EventKit",
+    "MediaPlayer",
+    "AVFoundation",
+    "iAd",
+    "CoreGraphics"
+  ],
+  "libraries": [
+    "sqlite3.0",
+    "xml2"
+  ],
+  "vendored_libraries": [
+    "Library/libadclient.a",
+    "Library/libAds.a"
+  ]
+}
